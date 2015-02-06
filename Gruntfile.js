@@ -14,10 +14,6 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
   // Load all Grunt tasks
   require('load-grunt-tasks')(grunt);
-  // Load LESS
-  grunt.loadNpmTasks('grunt-contrib-less');
-  // Load bootstrap
-  grunt.loadNpmTasks('grunt-include-bootstrap');
 
   grunt.initConfig({
     // Configurable paths
@@ -48,17 +44,6 @@ module.exports = function (grunt) {
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
         tasks: ['jekyll:server']
-      }
-    },
-    include_bootstrap: {
-      options: {
-        // All options are passed on to the grunt-contrib-less task
-      },
-      files: {
-        'dest/styles.css': 'less/manifest.less',
-      },
-      your_target: {
-        // Target-specific file lists and/or options go here.
       }
     },
     browserSync: {
