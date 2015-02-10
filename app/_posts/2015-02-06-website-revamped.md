@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Website Revamped!
+author: steven
 ---
 
 We have been long overdue for a new website. And it's finally here! It contains
