@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1> {{ page.title }} </h1>
+<h2 class="page-header"> {{ page.title }} </h2>
 <p class="author">
   <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
   <br>
@@ -13,7 +13,7 @@ layout: default
   {% if author %}
     <span>
     <!-- Personal Info. -->
-    Written by <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
+    By <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
     </span>
   {% endif %}
 </p>
