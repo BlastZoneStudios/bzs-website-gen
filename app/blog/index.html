@@ -22,8 +22,7 @@ title: Blog
   </p>
   <div class="content">
     {{ post.excerpt }}
-    <p><a href="{{ post.url }}">Read more &raquo</a></p>
-    (<a href="{{ post.url }}#disqus_thread"></a>)
+    <p>(<a href="{{ post.url }}#disqus_thread"></a>) <a href="{{ post.url }}">Read more &raquo</a></p>
   </div>
 {% endfor %}
 
