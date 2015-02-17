@@ -40,7 +40,8 @@ Run the installer. Then when you get to
 
 `Installation Detection and Optional Tasks`
 
-Make sure to check "Add Ruby executables to your path" so it looks like this: :ballot_box_with_check: `Add Ruby executables to your path`
+Make sure to check "Add Ruby executables to your path" so it looks like this:
+![ruby-dev]({{site.url}}/img/post_imgs/2015-02-17-ruby-dev.png "ruby-dev")
 
 Continue with the installation and it should finish pretty quickly. You now have Ruby and can access it in your `command prompt`!
 
