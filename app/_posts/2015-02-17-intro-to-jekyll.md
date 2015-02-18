@@ -34,14 +34,14 @@ Since this tutorial series will be covering a lot of information, I want to keep
 If you don't have [Ruby](https://www.ruby-lang.org/en/) installed, you're probably on Windows. Mac users can skip to [this section](#install-jek).
 
 First, go to the [rubyinstaller](http://rubyinstaller.org/downloads/) website and download the most recent one.
-![ruby-installer]({{site.url}}/img/post_imgs/2015-02-17-ruby-installer.png "installer")
+![ruby-installer]({{site.url}}/img/post_imgs/2015-02-17/ruby-installer.png "installer")
 
 Run the installer. Then when you get to
 
 `Installation Detection and Optional Tasks`
 
 Make sure to check "Add Ruby executables to your path" so it looks like this:
-![ruby-dev]({{site.url}}/img/post_imgs/2015-02-17-ruby-dev.png "ruby-dev")
+![ruby-dev]({{site.url}}/img/post_imgs/2015-02-17/ruby-dev.png "ruby-dev")
 
 Continue with the installation and it should finish pretty quickly. You now have Ruby and can access it in your `command prompt`!
 
