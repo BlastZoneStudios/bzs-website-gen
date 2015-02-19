@@ -84,11 +84,13 @@ finally:
 
 Next, go to your web browser and type `http://localhost:4000` to see your new site.
 
+![blog page]({{site.url}}/img/post_imgs/2015-02-17/blog-page.png "blog page")
+
 Doesn't it look good?
 
 ### Conclusion
 
-This concludes the first part of the Jekyll series. Tune in later for more tutorials that will explore the various parts of Jekyll.Hope this helps!
+This concludes the first part of the Jekyll series. Tune in later for more tutorials that will explore the various parts of Jekyll. Hope this helps!
 
 ----
 References: [Jekyllrb](http://jekyllrb.com/docs/home/), [Install ruby on windows](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
