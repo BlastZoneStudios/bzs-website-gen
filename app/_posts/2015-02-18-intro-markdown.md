@@ -56,7 +56,7 @@ Say you want to link a user to a wikipedia article about cats. Here is how you d
 
 The result ends up looking like this: [cats](https://en.wikipedia.org/wiki/Cat)
 
-## Adding direct images
+### Adding direct images
 You've just learned how to add a click link, but now how do you add an image?
 
 The syntax is similar to linking, except with an added exclamation: `![name](link)`
@@ -68,7 +68,7 @@ So if you wanted an image of a cat you'd write it out like this:
 Which ends up looking like this:
 ![cat pic](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/320px-Cat_poster_1.jpg)
 
-## Adding text blocks
+### Adding text blocks
 You've probably noticed me including small text boxes like this: `this is a text box`
 
 In order to do that, all you need to do is type `` `text` `` where `text` is your text
@@ -91,7 +91,7 @@ It looks like this: ``` `` `sup` `` ```
 Escaping the example above looks like this:
 ```` ``` `` `sup` `` ``` ````
 
-## What Next
+## What's Next?
 This is pretty much the basics of markdown. You can actually get a lot done with just these few things. If you want to look more into it, here's the [official documentation](http://daringfireball.net/projects/markdown/syntax). This [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is also really helpful!
 
 ----
