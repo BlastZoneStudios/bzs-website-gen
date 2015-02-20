@@ -1,0 +1,106 @@
+#games details
+- name: Aim for the Nest
+  id: aimforthenest
+  icon: aimforthenest_icon.png
+  ios: https://itunes.apple.com/us/app/aim-for-the-nest/id633051587?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.jsystudios.savetheeggs
+  facebook: https://www.facebook.com/apps/application.php?id=162572897231879
+  about: Protect your egg by placing it in the correct pipe that leads to the nest. Follow a series of pipes as the screen scrolls through them at an increasing pace and see if you can determine which pipe will lead the egg to safety.
+
+- name: Swipe Right
+  id: swiperight
+  icon: swiperight_icon.png
+  ios: https://itunes.apple.com/us/app/swipe-right/id629845769?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/developer?id=Blast+Zone+Studios
+  about: Test your reflexes! Arrows and words fly across the screen. Swipe your finger across the screen according to what is shown! But make sure to be on your toes! It gets faster over time!
+
+- name: Extreme Walking
+  id: extremewalking
+  icon: extremewalking_icon.png
+  ios: https://itunes.apple.com/us/app/extreme-walking/id657076312?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week1
+  about: Your rival is at it again! See if you can beat him in a race once and for all! ... by walking! Tap the screen to jump! You build momentum over time so you need to avoid the obstacles!
+
+- name: Sushi Bear
+  id: sushibear
+  icon: sushibear_icon.png
+  ios: https://itunes.apple.com/us/app/sushi-bear/id660159451?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week2
+  about: Peter Bearington is hungry! Help him grab sushi as it passes by! Test your reflexes as the revolving table gets faster each time Peter grabs a plate. Beware. He hates spicy food!
+
+- name: Space Dive
+  id: spacedive
+  icon: spacedive_icon.png
+  ios: https://itunes.apple.com/us/app/space-dive/id662666899?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week3
+  about: Help daredevil and energy drink enthusiast Bob Dangles dive to Earth all the way from outer space! Tilt the screen to avoid obstacles and collect coins when falling back to Earth.
+
+- name: Robot Recall
+  id: robotrecall
+  icon: robotrecall_icon.png
+  ios: https://itunes.apple.com/us/app/robot-recall/id665779707?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week4j
+  about: You are a robot, and you dropped all of your coins! Drag the robot to pick up the coins, and avoid the spikes! Each time you grab a coin, more spikes are added! Precision is key in getting a high score!
+
+- name: Hoops Up
+  id: hoopsup
+  icon: hoopsup_icon.png
+  ios: https://itunes.apple.com/us/app/hoops-up/id668502705?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week5
+  about: Test your shooting skills in this basketball shoot-off! Race against the clock to see how many baskets you can make in a minute! This is by far the toughest basketball game you'll ever play!
+
+- name: Tilt to Win!
+  id: tilttowin
+  icon: tilttowin_icon.png
+  ios: https://itunes.apple.com/us/app/tilt-to-win!/id670687650?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week6
+  about: Tilt your way to victory! Try to get the ball to the star as quickly as you can! But beware! There are holes everywhere! Go through all 10 action-packed levels without losing all your lives!
+
+- name: Bottle Blast
+  id: bottleblast
+  icon: bottleblast_icon.png
+  ios: https://itunes.apple.com/us/app/bottle-blast/id673308245?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week7
+  about: Your job is to launch the rocket as high as you can! In order to do that you need to pump, pump, PUMP!!! Tap as fast as you can to get that rocket into the air! This game is so simple, even your cat can play it!
+
+- name: Catsitter
+  id: catsitter
+  icon: catsitter_icon.png
+  ios: https://itunes.apple.com/us/app/cat-sitter/id680074445?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week8j
+  about: Cat Sitter is a multi-tasking strategy game where you feed and buy cats. Juggle your funds between buying food and buying more cats. Get more money by raising more cats, but don't let any of them starve!
+
+- name: CuddleCakes
+  id: cuddlecakes
+  icon: cuddlecakes_icon.png
+  ios: https://itunes.apple.com/us/app/cuddlecakes-panda-in-cupcake/id680017830?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week9
+  about: A sneaky panda has broken into the CuddleCakes factory! And he has a BIG appetite! Touch anywhere on the screen to move the panda's paw! Grab as many cupcakes as you can! But beware the traps!
+
+- name: Bottle Blast 2
+  id: bottleblast2
+  icon: bottleblast2_icon.png
+  ios: https://itunes.apple.com/us/app/bottle-blast-2/id687126483?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week10
+  about: Sequel to the ever popular Bottle Blast! Your job is to launch the rocket as high as you can! In order to do that you need to pump, pump, PUMP!!! Tap as fast as you can to get that rocket into the air! So easy, even a kitten can do it!
+
+- name: Quick Reflex!
+  id: quickreflex
+  icon: quickreflex_icon.png
+  ios: https://itunes.apple.com/us/app/quick-reflex!/id687614173?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week11a
+  about: In Quick Reflex, your job is to tap the screen as quickly as possible after the screen changes color! Compete for the quickest time on the Game Center leaderboard or against friends online in REAL-TIME!
+
+- name: Surfing Smiley
+  id: surfing smiley
+  icon: surfingsmiley_icon.png
+  ios: https://itunes.apple.com/us/app/surfing-smiley/id707151885?ls=1&amp;mt=8
+  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week12j
+  about: You are a smiley with a surfboard. Use physics to launch yourself from the hills into the air. How far you can go within a minute? Credit goes to raywenderlich.com for the awesome tutorial!
+
+- name: Ninja, Hunter, Bear
+  id: ninjahunterbear
+  icon: NHB_icon.png
+  ios: https://itunes.apple.com/sr/app/ninja-hunter-bear/id711831032?mt=8
+  android: https://play.google.com/store/apps/developer?id=Blast+Zone+Studios
+  about: Who would win in a duel? A ninja, a hunter or a bear? Ninjas obviously beat hunters, and hunters obviously beat bears. Also don't forget bears can take on ninjas! This game is ROCK, PAPER, SCISSORS with a twist!
