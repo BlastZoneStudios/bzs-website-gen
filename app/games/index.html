@@ -9,14 +9,14 @@ title: Games
 {% for game in site.data.games %}
   <div id="{{ game.id }}" class="col-sm-6 navbar hook thumbnail">
     <div>
-        <img class="img-responsive img-rounded icon" alt="300x200" src="{{ relative }}/img/{{ game.icon }}" title="{{ game.about }}"  style="float: left; box-shadow: 5px 5px 5px #888888;"/>
+        <img class="img-responsive img-rounded" alt="300x200" src="{{ relative }}/img/{{ game.icon }}" title="{{ game.about }}"  style="float: left; box-shadow: 5px 5px 5px #888888;"/>
       <div class="col-sm-6 caption">
           <h4 style="text-align: center;">{{ game.name }}</h4>
           <a href="{{ game.ios }}">
-              <img class="img-responsive" style:"align:middle;" alt="Download on the App Store" src="{{ relative }}/img/Download_on_the_App_Store_Badge_US-UK_135x40.png" />
+              <img class="img-responsive" style="align:middle;" alt="Download on the App Store" src="{{ relative }}/img/Download_on_the_App_Store_Badge_US-UK_135x40.png" />
           </a>
           <a href="{{ game.android }}">
-              <img class="img-responsive" style:"align:middle;" alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" style="height:50px; width:140px;" />
+              <img class="img-responsive" style="align:middle;" alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" style="height:50px; width:140px;" />
           </a>
       </div>
     </div>
