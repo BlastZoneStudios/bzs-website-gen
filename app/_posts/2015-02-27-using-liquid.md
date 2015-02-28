@@ -83,10 +83,10 @@ And then, in the html we will call that information as follows:
     <head>
       <body>
         <h1> My page title: {{ page.title }} </h1>
-          {% assign book = site.data.books[page.books] %}
+      {% raw %}    {% assign book = site.data.books[page.books] %}
           {% if book %}
           <p>{{ book.title }}</p>
-          {% endif %}
+          {% endif %} {% endraw %}
       </body>
     </head>
   </html>
@@ -104,9 +104,9 @@ To make a loop that goes through all the books in your data file, all you need t
     <head>
       <body>
         <h1> My page title: {{ page.title }} </h1>
-          {% for book in site.data.books %}
+        {% raw %}{% for book in site.data.books %}
           <p>{{ book.title }}</p>
-          {% endfor %}
+        {% endfor %} {% endraw %}
       </body>
     </head>
   </html>
