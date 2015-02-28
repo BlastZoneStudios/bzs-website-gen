@@ -130,7 +130,9 @@ textarea {
   font-style: italic;
 }
 
-
+.navbar {
+  border-radius: 0px;
+}
 
 
 
