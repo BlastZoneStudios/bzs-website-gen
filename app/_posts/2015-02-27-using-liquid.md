@@ -16,10 +16,10 @@ For example, if you wanted to include the author information on a blog post for 
 We will need to sidetrack a bit and learn about [YAML](http://yaml.org/) font matter. For the sake of this article, I won't go too deep into it. You pretty much need to add a special header to any file you want to be transformed.
 
 To do this, all you need to do is add three dashes to the top of your page:
-```
+{% highlight yaml %}
 ---
 ---
-```
+{% endhighlight %}
 
 That's it! You can now use Liquid in your page!
 
@@ -30,16 +30,16 @@ For our first global variable, we'll be adding a `title`.
 
 To do this, all you need to do is go up to the top and add title between your title and the title you want your page to be.
 
-```
+{% highlight yaml %}
 ---
 title: My First Post
 ---
-```
+{% endhighlight %}
 
 Once you do that, the page title will now be called "My First Post" which you can see on the page tab.
 
 Now, if you want to access this page title somewhere in your code, all you need to do is reference it using these {{ }} brackets. The code ends up looking like this:
-```html
+{% highlight html %}
   <html>
     <head>
       <body>
@@ -47,7 +47,7 @@ Now, if you want to access this page title somewhere in your code, all you need 
       </body>
     </head>
   </html>
-```
+{% endhighlight %}
 
 To learn about the different global variables, check out [this page](http://jekyllrb.com/docs/frontmatter/).
 
@@ -70,15 +70,15 @@ frankenstein:
 
 So once you have that, go to the page you want to add the content. In our first page, we will then add this to the top of our page:
 
-```
+{% highlight yaml %}
 ---
 title: My First Post
 books: catinhat
 ---
-```
+{% endhighlight %}
 
 And then, in the html we will call that information as follows:
-```html
+{% highlight html %}
   <html>
     <head>
       <body>
@@ -90,7 +90,7 @@ And then, in the html we will call that information as follows:
       </body>
     </head>
   </html>
-```
+{% endhighlight %}
 
 This may be a lot to write down for so little, but the ability to call the information without typing manually is very powerful.
 
@@ -99,7 +99,7 @@ This may be a lot to write down for so little, but the ability to call the infor
 As you may have noticed in the code above, there's an if tag in the angular brackets. This is the very heart of Liquid. You are able to use basic programming commands like if statements and for loops. Mixing this with your html will allow you to do a lot with just a little bit of code.
 
 To make a loop that goes through all the books in your data file, all you need to do is use the for command:
-```html
+{% highlight html %}
   <html>
     <head>
       <body>
@@ -110,7 +110,7 @@ To make a loop that goes through all the books in your data file, all you need t
       </body>
     </head>
   </html>
-```
+{% endhighlight %}
 
 This will loop through each book in the `book.yml` file and output the title. Each one will be on a separate paragraph as well. As you can see, this saves a ton of time if you have a large amount of data you want to output.
 
