@@ -2,7 +2,11 @@
 
 Once cloned, go to terminal and call:
 
-`npm install` and `bower install`
+```
+bundle install
+npm install
+bower install
+```
 
 ---
 
@@ -24,5 +28,3 @@ Once everything looks good, use the `grunt deploy` command to deploy the website
 ##Where Are The Files Deployed?
 
 The files are sent to the `master` branch of this [repository](https://github.com/BlastZoneStudios/BlastZoneStudios.github.io)
-
-
