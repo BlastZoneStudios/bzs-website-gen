@@ -16,12 +16,15 @@ layout: default
     By <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
     <a href="{{ author.twitter }}"><img class="img-responsive img-rounded auth-pic" alt="20x20" src="{{ relative }}/{{ author.pic }}"></a>
     </span>
-  {% endif %}
 </p>
 
 <article class="post">
 {{ content }}
-</article>
+<div style="background-color: #e9edc6; border-radius: 8px;">
+  <p style="padding: 1.5em 1em;"><i> This article was written by {{ author.name }}. Follow him on <a href="{{ author.twitter }}">Twitter</a></i></p>
+  </article>
+</div>
+{% endif %}
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
