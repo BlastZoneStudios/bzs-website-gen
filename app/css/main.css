@@ -121,6 +121,15 @@ textarea {
   border-radius: 8px;
 }
 
+.side-bar {
+  padding: 0.1em;
+  color: #68675a;
+}
+
+.side-bar h4 {
+  font-style: italic;
+}
+
 
 
 
