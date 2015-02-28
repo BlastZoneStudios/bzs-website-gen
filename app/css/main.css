@@ -116,6 +116,10 @@ textarea {
   font-size: 0.8em;
 }
 
+.post-border {
+  background-color: #e9edc6;
+  border-radius: 8px;
+}
 
 
 
