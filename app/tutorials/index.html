@@ -1,0 +1,42 @@
+---
+layout: default
+title: Tutorials
+---
+
+<h2 id="tutorials" class="page-header">Tutorials</h2>
+
+{% for post in site.categories.tutorial %}
+<h2 class="page-header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p class="author">
+  <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+  <br>
+  <!-- Look the author details up from the site config. -->
+  {% assign author = site.data.authors[post.author] %}
+
+  <!-- Output author details if some exist. -->
+  {% if author %}
+    <span>
+    <!-- Personal Info. -->
+    By <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
+    <a href="{{ author.twitter }}"><img class="img-responsive img-rounded auth-pic" alt="20x20" src="{{ relative }}/{{ author.pic }}"></a>
+    </span>
+  {% endif %}
+</p>
+<div class="content">
+  {{ post.excerpt }}
+  <p>(<a href="{{ post.url }}#disqus_thread"></a>) <a href="{{ post.url }}">Read more &raquo</a></p>
+</div>
+{% endfor %}
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'blastzonestudios'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
