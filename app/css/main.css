@@ -109,12 +109,6 @@ textarea {
   margin-right: 5px;
 }
 
-.top-info {
-  float: right;
-  color: #ffffff;
-  font-size: 0.8em;
-}
-
 .post-border {
   background-color: #e9edc6;
   border-radius: 8px;
@@ -133,8 +127,25 @@ textarea {
   border-radius: 0px;
 }
 
+.navbar-inverse .navbar-brand {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 22px;
+  color: #e9e220;
+}
 
+.navbar-nav>li>a {
+  padding-top: 2.0em;
+  font-size: 16px;
+}
 
+.navbar-inverse {
+  background-color: #161500;
+}
+
+.search {
+  float: right;
+  width: 30%;
+}
 
 
 
