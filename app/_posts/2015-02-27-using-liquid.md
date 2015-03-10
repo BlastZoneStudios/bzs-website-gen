@@ -42,10 +42,10 @@ Now, if you want to access this page title somewhere in your code, all you need 
 {% highlight html %}
   <html>
     <head>
+    </head>
       <body>
         <h1> My page title: {{ page.title }} </h1>
       </body>
-    </head>
   </html>
 {% endhighlight %}
 
@@ -81,6 +81,7 @@ And then, in the html we will call that information as follows:
 {% highlight html %}
   <html>
     <head>
+    </head>
       <body>
         <h1> My page title: {{ page.title }} </h1>
       {% raw %}    {% assign book = site.data.books[page.books] %}
@@ -88,7 +89,6 @@ And then, in the html we will call that information as follows:
           <p>{{ book.title }}</p>
           {% endif %} {% endraw %}
       </body>
-    </head>
   </html>
 {% endhighlight %}
 
@@ -102,13 +102,13 @@ To make a loop that goes through all the books in your data file, all you need t
 {% highlight html %}
   <html>
     <head>
+    </head>
       <body>
         <h1> My page title: {{ page.title }} </h1>
         {% raw %}{% for book in site.data.books %}
           <p>{{ book.title }}</p>
         {% endfor %} {% endraw %}
       </body>
-    </head>
   </html>
 {% endhighlight %}
 
