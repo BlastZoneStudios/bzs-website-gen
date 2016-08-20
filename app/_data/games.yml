@@ -35,13 +35,6 @@
   android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week3
   about: Help daredevil and energy drink enthusiast Bob Dangles dive to Earth all the way from outer space! Tilt the screen to avoid obstacles and collect coins when falling back to Earth.
 
-- name: Robot Recall
-  id: robotrecall
-  icon: robotrecall_icon.png
-  ios: https://itunes.apple.com/us/app/robot-recall/id665779707?ls=1&amp;mt=8
-  android: https://play.google.com/store/apps/details?id=com.blastzonestudios.week4j
-  about: You are a robot, and you dropped all of your coins! Drag the robot to pick up the coins, and avoid the spikes! Each time you grab a coin, more spikes are added! Precision is key in getting a high score!
-
 - name: Hoops Up
   id: hoopsup
   icon: hoopsup_icon.png
